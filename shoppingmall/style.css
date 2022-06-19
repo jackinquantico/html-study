@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style-type: none;
+}
+header {
+  height: 135px;
+}
+#logo {
+  float: left;
+  margin: 80px 0 0 60px;
+}
+#menu {
+  float : right;
+  text-align: right;
+  margin-right: 20px;
+}
+#menu li {
+  display : inline-block;
+}
+#login li{
+  margin: 30px 0 0 10px;
+}
+#topmenu li {
+  margin: 40px 0 0 80px;
+  font-family: "맑은고딕";
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.mainimg {
+  height: 312px;
+  background-image: url("main_bg.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 230px 0 0 750px;
+}
+
+.box {
+  margin: 0 auto;
+  width: 1100px;
+}
+
+aside {
+  float: left;
+  width: 200px;
+    margin: 70px 0;
+}
+aside li {
+  list-style-type: none;
+}
+aside .title1 {
+  font-size: 18px;
+  background-color: #0ca9a3;
+  color: white;
+  padding: 12px;
+}
+aside .introduce {
+  padding: 20px 10px;
+  line-height: 150%;
+}
+aside .search input {
+  width: 140px;
+  height: 32px;
+  border: solid 1px black;
+  vertical-align: top;
+}
+aside .search button {
+  margin-left: 5px;
+  padding: 6px 10px;
+  border: solid 1px black;
+  float: right;
+}
+aside .title2 {
+  margin-top: 20px;
+  padding: 12px;
+  border-top: 2px solid black;
+  border-bottom: 1px solid black;
+  font-size: 18px;
+}
+aside .list {
+  margin: 20px 0;
+}
+aside .list li {
+  margin: 10px 12px;
+}
+aside .comment {
+  border: 1px solid #0ca9a3;
+  padding: 12px;
+}
+aside .comment .title3 {
+  font-size: 18px;
+  margin: 10px 0 15px 0;
+}
+aside .comment .hello li {
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.main {
+  float: right;
+  width: 840px;
+  margin: 70px 0;
+}
+#main1 {
+  width: 405px;
+  float: left;
+}
+#title1 {
+  padding-bottom: 8px;
+  border-bottom: 1px solid black;
+}
+#main1 .latest {
+  margin-top: 30px;
+}
+#main1 .latest .items {
+  position: relative;
+  height: 34px;
+}
+#main1 .items .subject {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#main1 .items .date {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+#main1 #title2 {
+  margin-top: 30px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid black;
+}
+#main2 {
+  width: 400px;
+  float: right;
+}
+#main2 .item1 {
+  clear: both;
+  width: 189px;
+  float: left;
+  margin-top: 30px;
+}
+#main2 .item2 {
+  float: right;
+  width: 189px;
+  margin-top: 30px;
+}
+#main2 .subject {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+#main2 .date {
+  margin-top: 5px;
+}
+
+footer {
+  border: 1px solid black;
+  clear: both;
+  height: 260px;
+  background: #05354e;
+  color: white;
+}
+#bottommenu ul {
+  padding: 20px 0 0 100px;
+  font-weight: bold;
+}
+#bottommenu li {
+  display: inline;
+  margin-right: 30px;
+}
+footer .box .items {
+  float: left;
+  margin-top: 40px;
+  margin-left: 100px;
+}
+footer h3 {
+  color: #0ca9a3;
+}
+footer .items ul {
+  margin-top: 15px;
+}
+footer .items li {
+  margin-top: 5px;
+}
+footer .items .phone {
+  font-size: 25px;
+  font-weight: bold;
+}
