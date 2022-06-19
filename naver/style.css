@@ -1,0 +1,289 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style-type: none;
+}
+.box {
+  width: 1130px;
+  margin: 0 auto;
+}
+
+/*헤더 영역*/
+header {
+  height: 130px;
+}
+#logo {
+  float: left;
+  margin-top: 13px;
+  margin-right: 15px;
+}
+#logo img {
+  width: 170px;
+}
+#search {
+  float: left;
+  margin-top: 30px;
+  border: 2px solid green;
+}
+#search input {
+  width: 500px;
+  height: 50px;
+  border: 0px;
+}
+#search button {
+  background: green;
+  width: 50px;
+  height: 50px;
+  color: white;
+  border: 0px;
+}
+#login {
+  float: right;
+  margin-top: 10px;
+}
+#login li {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 15px;
+}
+#login #important {
+  font-weight: bold;
+}
+/*헤더 영역*/
+
+/*메뉴 영역*/
+#menu {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  height: 50px;
+  font-size: 16px;
+  padding-top: 12px;
+  margin-bottom: 12px;
+}
+#menu div {
+  float: left;
+}
+#menu li {
+  display: inline-block;
+  margin-right: 15px;
+}
+#menu #green_menu {
+  color: green;
+  font-weight: bold;
+}
+#menu #black_menu {
+  font-weight: bold;
+}
+#menu #more_menu {
+  float: right;
+}
+#menu #more_menu select{
+  font-size: 13px;
+  color: gray;
+  border: 0px;
+}
+/*메뉴 영역*/
+
+/*메인 영역*/
+#main {
+  clear: both;
+  width: 850px;
+  float: left;
+  margin-bottom: 50px;
+}
+#main #mainimg img {
+  width: 850px;
+  height: 150px;
+}
+#main h3 {
+  font-size: 16px;
+  padding: 12px 5px;
+  font-weight: lighter;
+  display: inline-block;
+}
+#main #important {
+  font-weight: bold;
+}
+#main table {
+  width: 850px;
+  text-align: center;
+  border-collapse: collapse;
+  border: 1px solid gray;
+  margin-bottom: 20px;
+}
+#main #news td {
+  border: 1px solid gray;
+  height: 50px;
+}
+#main #today td {
+  border: 1px solid gray;
+  height: 40px;
+  font-weight: bold;
+  width: 105px;
+}
+#main #today .green {
+  background: green;
+  color: white;
+  border: 0px;
+}
+#main #today img {
+  width: 250px;
+  height: 120px;
+  float: left;
+  margin-right: 20px;
+}
+#main #today li {
+  padding-top: 7px;
+}
+#main #green {
+  font-weight: bold;
+  color: green;
+}
+/*메인 영역*/
+
+/*사이드바 영역*/
+aside {
+  width: 250px;
+  float: right;
+  position: relative;
+}
+aside #user {
+  background: #e6e6e6;
+  border: 1px solid gray;
+  padding-bottom: 12px;
+}
+aside #user img {
+  background: white;
+  width: 50px;
+  border: 1px solid gray;
+  border-radius: 25px;
+  margin: 12px 12px;
+  float: left;
+}
+aside #info {
+  padding-top: 12px;
+}
+aside #info li {
+  font-size: 12px;
+  line-height: 150%;
+}
+aside #info .important {
+  font-size: 14px;
+  font-weight: bold;
+}
+aside button {
+  float: right;
+  position : absolute;
+  top: 12px;
+  right: 12px;
+  width: 50px;
+  height: 20px;
+  background: gray;
+  color: white;
+  border: 0px;
+  border-radius: 25px;
+  font-size: 12px;
+}
+#user #service {
+  padding: 12px;
+  width: 250px;
+  border-top: 1px solid gray;
+}
+#user #service li{
+  display: inline-block;
+  float: left;
+  font-size: 12px;
+  font-weight: bold;
+  padding-right: 18px;
+}
+aside #money {
+  border: 1px solid gray;
+  background: #e6e6e6;
+  margin: 12px 0 12px 0;
+}
+aside #money h3 {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 6px;
+}
+aside #ad img {
+  width: 250px;
+}
+#shopping {
+  margin-top: 12px;
+  padding: 12px 0 12px 12px;
+}
+#shopping h3 {
+  font-size: 12px;
+  font-weight: bold;
+}
+#shopping #list {
+  border: 1px solid gray;
+  background: #e6e6e6;
+  margin: 12px 12px 12px 0;
+  padding: 12px 12px 0 12px;
+  font-size: 11px;
+}
+#shopping #list li {
+  padding-bottom: 12px;
+}
+#shopping #pic img {
+  width: 70px;
+  margin-right: 6px;
+  float: left;
+}
+/*사이드바 영역*/
+
+/*푸터 영역*/
+footer {
+  clear: both;
+  height: 300px;
+}
+footer #notice {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 0;
+  border-top: 1px solid gray;
+}
+#notice .left {
+  float: left;
+}
+#notice .right {
+  float: right;
+}
+#app {
+  clear: both;
+  margin: 12px 0;
+  float: left;
+  padding-bottom: 12px;
+}
+#app li {
+  display: inline-block;
+  float: left;
+  padding: 5px;
+  color: gray;
+  font-size: 12px;
+}
+#app .important {
+  width: 100px;
+  font-weight: bold;
+  color: black;
+}
+#call {
+  clear: both;
+}
+#call li {
+  display: inline-block;
+  float: left;
+  font-size: 12px;
+  color: gray;
+  padding-right: 10px;
+}
+#call .important {
+  font-weight: bold;
+  color: black;
+}
+/*푸터 영역*/
